@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Protest Riot", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  text-align: center;
+}
+
+.card {
+  max-width: 500px; /* Ajusta este valor según tu preferencia */
+  padding: 30px; /* Agregado más relleno */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+  transition: max-width 0.3s ease; /* Agregado efecto de transición */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  align-items: center;
+  
+}
+.bxs-music{
+  margin-right: 5px;
+  color: #fd6519;
+}
+
+input {
+  width: 100%;
+  padding: 10px 50px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #fd6519;
+  color: white;
+  padding: 10px ;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #fd6519e3;
+}
+
+.download-info {
+  margin-top: 20px;
+}
+.bx-download{
+  margin-right: 3px;
+  
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+a {
+  display: block;
+  margin-top: 10px;
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+
+}
+
+a:hover {
+  background-color: #218838;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
+
+.derechos {
+  margin-top: 10px;
+}
